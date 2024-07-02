@@ -1,0 +1,33 @@
+.bg-img-3 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("../../../public/assets/images/bg3.png");
+}
+.page-banner-content > h2 {
+    color: #fff;
+    font-size: 42px;
+    font-weight: 700;
+    font-family: 'Droid Serif';
+}
+.page-banner-content > p {
+    margin: auto;
+    color: #fff;
+    font-size: 16px;
+    max-width: 630px;
+    line-height: 24px;
+    margin-bottom: 15px;
+    font-family: 'Mada', sans-serif;
+}
+.breadcrumb-pagination > li {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 16px;
+    list-style: none;
+    font-weight: 600;
+    line-height: 30px;
+    position: relative;
+    display: inline-block;
+    text-transform: capitalize;
+    font-family: 'Mada', sans-serif;
+}

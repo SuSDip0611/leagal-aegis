@@ -1,0 +1,23 @@
+.pp-data-holder{
+    text-align: left;
+}
+.pp-data-holder > h2 {
+    font-size: 25px !important;
+}
+.pp-data-holder > p {
+    font-size: 20px;
+}
+.pp-data-holder > p > strong{
+    font-size: 20px;
+}
+.pp-data-holder > ul{
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+}
+.pp-data-holder > ul > li > strong{
+    font-size: 19px;
+    
+}
+.pp-data-holder > ul > li{
+    font-size: 18px;
+}

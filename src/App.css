@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+}
+body {
+  /* font-family: 'Mada', sans-serif; */
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  width: 100%;
+  color: #6e6e6e;
+}
+a{
+  text-decoration: none !important;
+  transition: all 0.3s ease-out 0s;
+}
+.scroll-top{
+  background-color: #333 !important;
+}
+input {
+  background: transparent;
+  border-bottom: 1px solid #707070;
+  height: 36px;
+  padding-left: 10px;
+  font-size: 14px;
+  color: #aaaaaa;
+  width: 100%;
+  box-shadow: none;
+  border-radius: 0;
+  border-width: 0 0 1px;
+}

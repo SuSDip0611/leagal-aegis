@@ -1,0 +1,23 @@
+.tc-data-holder{
+    text-align: left;
+}
+.tc-data-holder > h2 {
+    font-size: 25px !important;
+}
+.tc-data-holder > p {
+    font-size: 20px;
+}
+.tc-data-holder > p > strong{
+    font-size: 20px;
+}
+.tc-data-holder > ul{
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+}
+.tc-data-holder > ul > li > strong{
+    font-size: 19px;
+    
+}
+.tc-data-holder > ul > li{
+    font-size: 18px;
+}

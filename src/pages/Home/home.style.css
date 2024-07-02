@@ -1,0 +1,508 @@
+/* Slider CSS */
+.single-slider {
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("../../../public/assets/images/slider/slider-bg.png");
+}
+.hero-content > .title > h1 {
+    font-size: 55px;
+    color: #C8242F;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: 'Droid Serif';
+    text-transform: capitalize;
+}
+.hero-content > .title > h2 {
+    font-size: 28px;
+    margin-bottom: 0;
+    font-weight: 400;
+    color: #C8242F;
+    font-family: 'Droid Serif';
+}
+.hero-content > .description > p {
+    color: #fff;
+    font-size: 18px;
+    margin-top: 40px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 0px;
+    font-family: 'Mada', sans-serif;
+}
+.hero-content > a {
+    font-size: 20px;
+    color: #C8242F;
+    font-weight: 700;
+    font-family: Droid Serif;
+    text-decoration: underline;
+    margin-top: 60px;
+    display: inline-block;
+}
+.hero-image-holder{
+    padding-top: 2rem;
+    /* padding-left: 2rem;
+    padding-right: 8rem; */
+    visibility: visible; 
+    animation-duration: 1.5s; 
+    animation-name: fadeInUp;
+}
+.img-full img {
+    width: 100%;
+}
+
+/* Feature CSS */
+.pb-90 {
+    padding-bottom: 90px;
+}
+.pt-95 {
+    padding-top: 95px;
+}
+.feature-section-title {
+    position: relative;
+}
+.section-title > h2 {
+    font-size: 32px;
+    color: #0F2041;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 25px;
+    font-family: 'Droid Serif';
+}
+.section-title > h2 > span {
+    color: #C8242F;
+}
+.section-title > p {
+    font-size: 16px;
+    color: #606060;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 0;
+    max-width: 635px;
+}
+.single-feature {
+    padding-left: 55px;
+    margin: 22px 0;
+}
+.single-feature > h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #0F2041;
+    line-height: 10px;
+    margin-bottom: 15px;
+    font-family: 'Droid Serif';
+    transition: all 0.3s ease-in-out;
+}
+.single-feature:hover > h2 {
+    color: #C8242F;
+    cursor: pointer;
+}
+.single-feature > p {
+    font-size: 16px;
+    line-height: 25px;
+    color: #606060;
+    font-weight: 400;
+}
+
+/* About css */
+.about-area {
+    margin-bottom: -295px;
+}
+.black-bg {
+    background: #0F2041 !important;
+}
+.pb-110 {
+    padding-bottom: 110px;
+}
+.pt-110 {
+    padding-top: 110px;
+}
+.about-img {
+    left: -100px;
+    position: relative;
+}
+.about-img img {
+    width: 100%;
+}
+.about-img > a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    color: #fafafa;
+    font-size: 60px;
+    line-height: 1;
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    margin-left: -30px;
+    margin-top: -30px;
+    line-height: 60px;
+}
+.about-content {
+    text-align: left;
+    margin-left: -60px;
+    padding-right: 120px;
+}
+.about-content > span {
+    font-size: 16px;
+    color: #c9c9c4;
+    line-height: 42px;
+    font-family: 'Mada', sans-serif;
+}
+.about-content > h1 {
+    font-size: 36px;
+    color: #C8242F;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: 'Droid Serif';
+}
+.about-content > h5 {
+    font-size: 18px;
+    line-height: 36px;
+    color: #c9c9c4;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-family: 'Droid Serif';
+}
+.about-content > p {
+    font-size: 16px;
+    line-height: 25px;
+    color: #cfcfcf;
+    margin-bottom: 30px;
+    font-family: 'Mada', sans-serif;
+}
+
+/* Service css */
+.service-area{
+    /* margin-top: 5rem; */
+    text-align: left;
+}
+.pb-55 {
+    padding-bottom: 55px;
+}
+.pt-120 {
+    padding-top: 120px;
+}
+.service-img {
+    padding-right: 40px;
+}
+.mb-60 {
+    margin-bottom: 60px;
+}
+.section-title > h4 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #C8242F;
+    margin-top: 20px;
+    text-transform: capitalize;
+    font-family: 'Droid Serif';
+}
+.section-title > h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 25px;
+    font-family: 'Droid Serif';
+}
+.mb-60 {
+    margin-bottom: 60px;
+}
+.service-content > h4 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    font-family: 'Droid Serif';
+}
+.service-content > h4 > a {
+    color: #555151;
+}
+.service-content > h4 > a:hover {
+    color: #C8242F;
+}
+.service-content > p {
+    font-size: 16px;
+    line-height: 25px;
+    color: #606060;
+    margin-bottom: 0;
+    font-weight: 400;
+    max-width: 250px;
+}
+
+/* Working Schedule CSS */
+.bg-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("../../../public/assets/images/bg.jpg");
+}
+.mb-70 {
+    margin-bottom: 70px;
+}
+.section-title.text-center > p {
+    margin: auto;
+    max-width: 630px;
+}
+.working-wrap {
+    padding: 40px 70px;
+    border-radius: 100px;
+    margin-bottom: -65px;
+    background-color: #fff;
+    border: 1px solid #ebebeb;
+    font-family: 'Mada', sans-serif;
+}
+.single-working {
+    overflow: hidden;
+    position: relative;
+    font-family: 'Mada', sans-serif;
+}
+.single-working-last {
+    overflow: hidden;
+    position: relative;
+    font-family: 'Mada', sans-serif;
+}
+.single-working::after {
+    position: absolute;
+    /* content: url("../../../public/assets/images/right-arrow.png"); */
+    content: "";
+    top: 50%;
+    right: 20px;
+    font-family: "Icofont";
+    font-size: 30px;
+    transform: translateY(-50%);
+    color: #585858;
+}
+.working-icon {
+    flex: 0 0 45px;
+    margin-right: 30px;
+    font-family: 'Mada', sans-serif;
+}
+.working-title > h2 {
+    margin: 0;
+    color: #0F2041;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    font-family: 'Droid Serif';
+}
+
+/* Testimonial & Quote CSS */
+.testimonial-and-quote-area{
+    margin-top: 5rem;
+}
+.pb-100 {
+    padding-bottom: 100px;
+}
+.pt-100 {
+    padding-top: 100px;
+}
+.request-quate-area {
+    padding: 60px 50px;
+    background-color: #0F2041;
+}
+.mb-55 {
+    margin-bottom: 55px;
+}
+.request-quate-title > img {
+    margin-bottom: 25px;
+}
+.request-quate-title > h2 {
+    margin: 0;
+    font-size: 34px;
+    color: #C8242F;
+    font-weight: 700;
+    font-family: 'Droid Serif';
+}
+.mb-30 {
+    margin-bottom: 30px;
+}
+.request-quate-form-style > input, .request-quate-form textarea {
+    color: #f9f9f9 !important;
+}
+input, textarea {
+    background: transparent;
+    border-bottom: 1px solid #707070;
+    height: 36px;
+    padding-left: 10px;
+    font-size: 14px;
+    /* color: #aaaaaa; */
+    width: 100%;
+    box-shadow: none;
+    border-radius: 0;
+    border-width: 0 0 1px;
+}
+.testimonial-area {
+    text-align: left;
+    padding-top: 35px;
+    padding-left: 70px;
+    padding-bottom: 30px;
+}
+.default-btn {
+    border: 0;
+    cursor: pointer;
+    margin-top: 40px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #aaaaaa;
+    line-height: 46px;
+    position: relative;
+    /* display: inline-block; */
+    /* align-self: flex-start; */
+    float: left;
+    background: transparent;
+    font-family: "Droid Serif";
+    text-transform: capitalize;
+    transition: all 0.3s ease-in-out;
+}
+.default-btn:hover {
+    color: #C8242F;
+}
+.default-btn::before {
+    position: absolute;
+    bottom: 15px;
+    content: "";
+    width: 95px;
+    height: 1px;
+    background-color: #aaaaaa;
+    transition: all 0.3s ease-in-out;
+}
+.request-quate-form-style > .default-btn > svg {
+    margin-left: 5px;
+    font-size: 20px;
+    vertical-align: middle;
+}
+.mb-40 {
+    margin-bottom: 40px;
+}
+.single-testimonial {
+    max-width: 410px;
+}
+.mb-50 {
+    margin-bottom: 50px;
+}
+.testimonial-content > i {
+    font-size: 35px;
+    line-height: 46px;
+    color: #606060;
+    /* vertical-align: ; */
+}
+.testimonial-content > p {
+    font-size: 16px;
+    color: #606060;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.testimonial-author > h5 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.testimonial-author > h5 > span {
+    font-size: 14px;
+    font-family: 'Mada', sans-serif;
+    color: #6e6e6e;
+    font-weight: 400;
+}
+
+/* Latest Blog CSS */
+.blog-img {
+    overflow: hidden;
+}
+.blog-img img {
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+}
+.blog-meta {
+    margin-top: 25px;
+    margin-bottom: 7px;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+.blog-meta > li {
+    display: inline-block;
+    list-style: none;
+    font-size: 13px;
+    line-height: 30px;
+    position: relative;
+    color: #757575;
+    font-weight: 600;
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+.blog-meta > li > a {
+    color: #757575;
+    text-decoration: none;
+    display: inline-block;
+}
+.blog-meta > li > a:hover {
+    color: #C8242F;
+}
+.single-blog .blog-content .blog-meta > li::before {
+    top: 50%;
+    width: 5px;
+    content: "";
+    z-index: 99;
+    height: 1px;
+    right: -14px;
+    position: absolute;
+    background: #757575;
+}
+.single-blog:hover .blog-img img {
+    transform: scale(1.2);
+}
+.blog-content{
+    text-align: left;
+}
+.blog-content > h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 15px;
+}
+.blog-content > h3 > a {
+    color: #0F2041;
+    text-decoration: none;
+    font-family: 'Droid Serif';
+}
+.blog-content > p {
+    font-size: 16px;
+    line-height: 25px;
+    color: #606060;
+    margin-bottom: 0;
+    font-weight: 400;
+    max-width: 355px;
+}
+.blog-content > a {
+    font-size: 14px;
+    display: inline-block;
+    line-height: 30px;
+    margin-top: 15px;
+    color: #636262;
+    font-family: "Droid Serif";
+    font-weight: 700;
+    position: relative;
+    text-decoration: none;
+}
+.blog-content > a:hover {
+    color: #C8242F;
+}
+.blog-content > a::before {
+    position: absolute;
+    bottom: 5px;
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #bbb8b3;
+    transition: all 0.3s ease-in-out;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 769px) {
+
+    .single-feature {
+        padding-left: 0;
+    }
+
+}

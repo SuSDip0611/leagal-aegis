@@ -1,0 +1,110 @@
+.sticky {
+    top: 0;
+    width: 100%;
+    opacity: 0.9;
+    position: fixed;
+    /* background: transparent; */
+    transition: all 0.5s ease;
+    background-color: #FFFFFF;
+    min-height: 5.5rem !important;
+    animation: smoothScroll 5s forwards;
+}
+.top-wrapper{
+    min-height: 6.5rem;
+}
+.default-bg {
+    background: #C8242F !important;
+}
+/* .row-75 {
+    margin-left: -35px;
+    margin-right: -35px;
+} */
+.header-top-wrap {
+    padding: 15px 75px;
+    background-color: #0F2041;
+    margin-bottom: -15px;
+}
+/*.header-bottom-area {
+     padding-top: 15px; 
+}*/
+.header-top-left > p, .header-top-right > p {
+    margin: 0;
+    color: #C8242F;
+    font-size: 17px;
+    text-transform: uppercase;
+    line-height: 35px;
+    font-weight: 500;
+}
+.header-top-left > p > a, .header-top-right > p > a {
+    color: #C8242F;
+    display: inline-block;
+    text-transform: none;
+    margin-left: 8px;
+    text-decoration: none;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+.social-link > li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 5px;
+}
+.social-link > li > a {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    border: 1px solid #C8242F;
+    text-align: center;
+    border-radius: 100%;
+    color: #C8242F;
+}
+.social-icon{
+    vertical-align: text-top;
+}
+.header-logo > a {
+    display: block;
+    margin: 15px 0;
+}
+.text-right {
+    text-align: right !important;
+}
+.main-menu > li {
+    display: inline-block;
+    list-style: none;
+    position: relative;
+}
+.main-menu > li.active > a, .main-menu > li:hover > a {
+    color: #C8242F;
+}
+.menu-text{
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 40px 17px;
+    color: #373537;
+    /* line-height: 30px; */
+}
+.menu-mobile-text{
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    color: #373537;
+    line-height: 30px;
+}
+.selectedMenu, .menu-text:hover {
+    color: #C8242F !important;
+}
+.mobile-menu-holder{
+    align-self:center;
+}
+
+/* @media only screen and (min-width: 200px) and (max-width: 570px) {
+
+    .header-container{
+        padding-left: 12%;
+    }
+
+} */

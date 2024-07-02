@@ -1,0 +1,108 @@
+.pt-120 {
+    padding-top: 120px;
+}
+.contact-address {
+    padding-right: 50px;
+}
+.contact-information {
+    text-align: left;
+    padding: 100px 65px;
+    background-color: #0F2041;
+}
+.contact-information h5 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 32px;
+    text-transform: capitalize;
+}
+.contact-information p {
+    color: #fff;
+    font-size: 16px;
+    max-width: 210px;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+.contact-information p > a {
+    color: #fff;
+    font-size: 16px;
+    max-width: 210px;
+    line-height: 25px;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+.contact-information > ul > li:first-child {
+    padding-top: 0;
+}
+.contact-information > ul > li {
+    list-style: none;
+    display: block;
+    border-bottom: 1px dashed #fff;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.contact-form-title {
+    text-align: left;
+}
+.contact-form-title > h3 {
+    color: #0F2041;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    font-family: 'Droid Serif';
+}
+.contact-form-title p {
+    font-size: 16px;
+    line-height: 25px;
+    color: #353535;
+    max-width: 571px;
+    margin-bottom: 15px;
+    font-family: 'Mada', sans-serif;
+}
+.contact-form .single-input {
+    margin-top: 30px;
+}
+.contact-form .single-input > input {
+    border: 1px solid #ebebeb;
+    font-size: 16px;
+    line-height: 32px;
+    color: #656565;
+    height: 50px;
+}
+.contact-form .single-input > textarea {
+    border: 1px solid #ebebeb;
+    font-size: 16px;
+    line-height: 32px;
+    color: #656565;
+    height: 190px;
+}
+.sent-btn {
+    display: inline-block;
+    height: 45px;
+    background: #C8242F;
+    padding: 10px 30px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 16px;
+    position: relative;
+    vertical-align: middle;
+    overflow: hidden;
+    float: left;
+    border: 1px solid #C8242F;
+    transition: 0.3s ease-in-out;
+}
+.contact-form p.form-messege.error {
+    color: #EF785A;
+}
+.contact-form p.form-messege {
+    padding-top: 15px;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 400;
+}
